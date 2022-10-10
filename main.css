@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(vazifa_9/bacg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+    position: relative;
+}
+.container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border: 3px double transparent;
+    border-radius: 30px;
+    padding: 90px 30px 30px 30px;
+    width: 54%;
+    position: absolute;
+    left: 360px;
+    top: 110px;
+}
+.container-left{
+    justify-self: center;
+}
+.container-left-ul{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); 
+    grid-column-gap: 1px;
+}
+.container-left>img{
+    max-width: 100%;
+}
+.ul{
+    list-style: none;        
+}
+.ul>li>a{
+    text-decoration: none;
+}
+.container-left-ul>li{
+    border: 2px solid #0000ffb5;
+    text-align: center;
+    padding: 15px 5px;
+    border-radius: 3px;
+}
+.container-right{
+    padding: 0 10px;
+    display: grid;
+    grid-template-rows: auto;
+}
+.container-right-button{
+    padding: 4px 0;
+    border-radius: 8px;
+    border-color: transparent;
+    color: white;
+    background-color: #0000ffb5;
+}
+.h2, h3{
+    color:#0000ffb5 ;
+}
